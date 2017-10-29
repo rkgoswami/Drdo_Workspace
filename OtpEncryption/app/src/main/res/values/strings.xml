@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">EncryptOtp</string>
+    <string name="meta_information">Meta Information</string>
+    <string name="rsa_private_key">RSA Private Key:</string>
+    <string name="rsa_public_key">RSA Public Key:</string>
+    <string name="generated_otp">Generated Otp:</string>
+    <string name="encrypted_otp">Encrypted Otp:</string>
+    <string name="decrypted_otp">Decrypted Otp:</string>
+    <string name="generate_rsa_key">Generate RSA Key</string>
+    <string name="generate_otp">Generate otp</string>
+    <string name="encrypt_otp">Encrypt Otp</string>
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="send_otp">send otp</string>
+</resources>
