@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EncryptOtp</string>
+    <string name="app_name">OtpEncryption</string>
     <string name="meta_information">Meta Information</string>
     <string name="rsa_private_key">RSA Private Key:</string>
     <string name="rsa_public_key">RSA Public Key:</string>
