@@ -1,4 +1,4 @@
-package com.example.rkgoswami.otpencryption;
+package com.example.sverma.otpapp;
 
 import android.app.Activity;
 import android.app.PendingIntent;
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     PrivateKey privateKey;
     Integer otpInt;
     String otpString,encryptedOtpStr, decryptedOtpStr;
-    TextView valFromNativeC;
+    //TextView valFromNativeC;
 
     /*Map object to hold the key*/
     Map<String, Object> RsaKey;
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         /*Initialize the views*/
-        valFromNativeC = (TextView) findViewById(R.id.tv_from_native_C);
+        //valFromNativeC = (TextView) findViewById(R.id.tv_from_native_C);
         tvPrivateKey = (TextView) findViewById(R.id.tv_private_key);
         tvPublicKey = (TextView) findViewById(R.id.tv_public_key);
         tvGeneratedOtp = (TextView) findViewById(R.id.tv_generate_otp);
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 try {
 
-                    valFromNativeC.setText(stringFromJNI("Hello Native C"));
+                    //valFromNativeC.setText(stringFromJNI("Hello Native C"));
                     RsaKey = getRSAKeys();
                     publicKey = (PublicKey) RsaKey.get("public Key");
                     privateKey = (PrivateKey) RsaKey.get("private Key");
@@ -308,6 +308,5 @@ public class MainActivity extends AppCompatActivity {
 
         return new String(cipher.doFinal(Base64.decode(encryptedText,Base64.DEFAULT)),"UTF-8");
     }
-
 
 }

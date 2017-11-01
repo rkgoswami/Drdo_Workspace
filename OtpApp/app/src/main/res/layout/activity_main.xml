@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.rkgoswami.otpencryption.MainActivity">
+    tools:context="com.example.sverma.otpapp.MainActivity">
     <TextView
         android:layout_gravity="center"
         android:layout_width="wrap_content"
@@ -15,7 +15,7 @@
         android:textSize="20sp"
         android:layout_marginBottom="20dp"
         />
-    <TextView
+    <!--<TextView
         android:id="@+id/tv_from_native_C"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
@@ -23,7 +23,7 @@
         android:textColor="@color/colorPrimary"
         android:textSize="20sp"
         android:layout_marginBottom="20dp"
-        />
+        />-->
     <ScrollView
         android:id="@+id/parentScrollView"
         android:layout_width="match_parent"
